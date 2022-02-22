@@ -74,11 +74,13 @@ abbr[epub|type~="se:era"]{
 
 /* All dedications */
 section[epub|type~="dedication"]{
+	font-variant: all-small-caps;
 	text-align: center;
 }
 
 section[epub|type~="dedication"] > *{
 	display: inline-block;
+	font-variant: all-small-caps;
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
@@ -90,6 +92,7 @@ section[epub|type~="dedication"] > *{
 		box-sizing: border-box;
 		display: flex;
 		flex-direction: column;
+		font-variant: all-small-caps;
 		justify-content: center;
 		min-height: calc(98vh - 3em);
 		padding-top: 3em;
