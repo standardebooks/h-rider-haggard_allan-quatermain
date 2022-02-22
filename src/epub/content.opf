@@ -129,9 +129,9 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="introduction.xhtml"/>
-		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="inscription.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
 		<itemref idref="chapter-2.xhtml"/>
 		<itemref idref="chapter-3.xhtml"/>
@@ -157,9 +157,9 @@
 		<itemref idref="chapter-23.xhtml"/>
 		<itemref idref="chapter-24.xhtml"/>
 		<itemref idref="note-by-george-curtis.xhtml"/>
+		<itemref idref="authorities.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
-		<itemref idref="authorities.xhtml"/>
 	</spine>
 </package>
