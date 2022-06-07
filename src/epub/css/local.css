@@ -72,15 +72,14 @@ abbr[epub|type~="se:era"]{
 	display: none;
 }
 
+/* Dedications */
 /* All dedications */
 section[epub|type~="dedication"]{
-	font-variant: all-small-caps;
 	text-align: center;
 }
 
 section[epub|type~="dedication"] > *{
 	display: inline-block;
-	font-variant: all-small-caps;
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
@@ -92,7 +91,6 @@ section[epub|type~="dedication"] > *{
 		box-sizing: border-box;
 		display: flex;
 		flex-direction: column;
-		font-variant: all-small-caps;
 		justify-content: center;
 		min-height: calc(98vh - 3em);
 		padding-top: 3em;
@@ -101,4 +99,83 @@ section[epub|type~="dedication"] > *{
 	section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
+}
+
+#dedication header{
+	text-align: center;
+	font-variant: all-small-caps;
+}
+
+#dedication blockquote{
+	text-align: center;
+	font-size: 140%;
+	font-variant: all-small-caps;
+	margin: 0.5em 0.5em;
+}
+
+section[epub|type~="dedication"] > footer{
+	margin: 1em;
+	text-align: left;
+}
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
+
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+
+	section[epub|type~="epigraph"] > * + *{
+		margin-top: 3em;
+	}
+}
+/* End full-page epigraphs */
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
 }
