@@ -102,15 +102,15 @@ section[epub|type~="dedication"] > *{
 }
 
 #dedication header{
-	text-align: center;
 	font-variant: all-small-caps;
+	text-align: center;
 }
 
 #dedication blockquote{
-	text-align: center;
 	font-size: 140%;
 	font-variant: all-small-caps;
 	margin: 0.5em 0.5em;
+	text-align: center;
 }
 
 section[epub|type~="dedication"] > footer{
