@@ -179,3 +179,8 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
+
+#chapter-15 header{
+	font-variant: all-small-caps;
+	text-align: center;
+}
