@@ -107,7 +107,7 @@ section[epub|type~="dedication"] > *{
 }
 
 #dedication blockquote{
-	font-size: 140%;
+	font-size: 1.875em;
 	font-variant: all-small-caps;
 	margin: 0.5em 0.5em;
 	text-align: center;
@@ -115,7 +115,7 @@ section[epub|type~="dedication"] > *{
 
 section[epub|type~="dedication"] > footer{
 	margin: 1em;
-	text-align: left;
+	text-align: initial;
 }
 
 /* All epigraphs */
