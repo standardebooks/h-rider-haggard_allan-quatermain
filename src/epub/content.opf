@@ -45,9 +45,10 @@
 		<meta property="term" refines="#subject-5">sh2008110305</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Allan Quatermain, the hero of King Soloman's Mines, sets out on a new mission to Africa to locate a mysterious tribe of white-skinned people.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Allan Quatermain is a fictional adventure story by &lt;a href="https://standardebooks.org/ebooks/h-rider-haggard"&gt;H. Rider Haggard&lt;/a&gt; first serialised in Longmans Magazine in the U.K. and subsequently published in 1887.&lt;/p&gt;
+			&lt;p&gt;It is the sequel to King Soloman's mines and sees the eponymous hero, reunited with his companions, travelling to Africa on a dangerous and incident-strewn journey to try and find a legendary tribe of white-skinned people, the Zu-Vendi. Having discovered the remote and isolated country they become embroiled in its internal affairs, culminating in a bitter and violent civil war.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/711</dc:source>
