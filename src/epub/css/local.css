@@ -72,6 +72,13 @@ abbr[epub|type~="se:era"]{
 	display: none;
 }
 
+/* song title */
+[epub|type~="z3998:song"] header > p{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
 /* Dedications */
 /* All dedications */
 section[epub|type~="dedication"]{
@@ -99,18 +106,6 @@ section[epub|type~="dedication"] > *{
 	section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
-}
-
-#dedication header{
-	font-variant: all-small-caps;
-	text-align: center;
-}
-
-#dedication blockquote{
-	font-size: 1.875em;
-	font-variant: all-small-caps;
-	margin: 0.5em 0.5em;
-	text-align: center;
 }
 
 section[epub|type~="dedication"] > footer{
@@ -180,7 +175,14 @@ p span.i1{
 	text-indent: -1em;
 }
 
-#chapter-15 header{
+#dedication header{
 	font-variant: all-small-caps;
+	text-align: center;
+}
+
+#dedication blockquote{
+	font-size: 1.875em;
+	font-variant: all-small-caps;
+	margin: 0.5em 0.5em;
 	text-align: center;
 }
