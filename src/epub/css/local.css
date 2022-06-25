@@ -1,6 +1,5 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
-
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
@@ -157,20 +156,22 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 /* dedication styling */
-#dedication header{
-	font-size: 1.2em;
-	font-variant: all-small-caps;
-	text-align: center;
+section[epub|type~="dedication"] p{
+	text-indent: 0;
 }
 
-#dedication blockquote{
+section[epub|type~="dedication"] p[epub|type~="z3998:personal-name"]{
 	font-size: 1.6em;
 	font-variant: all-small-caps;
-	margin: 0.5em 0.5em;
-	text-align: center;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
-p[epub|type~="se:letter.dateline"]{
-	margin: 1em;
+section[epub|type~="dedication"] p[epub|type~="se:letter.dateline"]{
+	margin-top: 1em;
 }
 /* end dedication styling */
+
+#chapter-15 [epub|type~="z3998:song"]:last-of-type > p{
+	font-style: italic;
+}
