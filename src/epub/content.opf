@@ -43,37 +43,38 @@
 		<meta property="term" refines="#subject-4">sh2008122139</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008110305</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">Allan Quatermain, the hero of King Soloman’s Mines, sets out on a new mission to Africa to locate a mysterious tribe of white-skinned people.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Allan Quatermain is a fictional adventure story by &lt;a href="https://standardebooks.org/ebooks/h-rider-haggard"&gt;H. Rider Haggard&lt;/a&gt; first serialised in Longmans Magazine in the U.K. and subsequently published in 1887.&lt;/p&gt;
+			&lt;p&gt;It is the sequel to King Soloman’s mines and sees the eponymous hero, reunited with his companions, travelling to Africa on a dangerous and incident-strewn journey to try and find a legendary tribe of white-skinned people, the Zu-Vendi. Having discovered the remote and isolated country they become embroiled in its internal affairs, culminating in a bitter and violent civil war.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/711</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://books.google.com/books?id=cQM1AAAAMAAJ</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Allan_Quatermain</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_allan-quatermain</meta>
 		<dc:creator id="author">H. Rider Haggard</dc:creator>
 		<meta property="file-as" refines="#author">Haggard, H. Rider</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._Rider_Haggard</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80010495</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">awi</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Antonion Zeno Shindler</dc:contributor>
+		<meta property="file-as" refines="#artist">Zeno Shindler, Antonion</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Ng E-Ching</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">E-Ching, Ng</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">David Widger</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Andy Oakley</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Oakley, Andy</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
