@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/h-rider-haggard/allan-quatermain</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-07-28T19:33:57Z</dc:date>
+		<meta property="dcterms:modified">2022-07-28T19:33:57Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,20 +48,20 @@
 		<meta id="collection-1" property="belongs-to-collection">Allan Quatermain</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">Allan Quatermain, the hero of King Soloman’s Mines, sets out on a new mission to Africa to locate a mysterious tribe of white-skinned people.</dc:description>
+		<dc:description id="description">Adventurer Allan Quatermain sets out on a mission to Africa to locate a mysterious tribe of white-skinned people.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Allan Quatermain is a fictional adventure story by &lt;a href="https://standardebooks.org/ebooks/h-rider-haggard"&gt;H. Rider Haggard&lt;/a&gt; first serialised in Longmans Magazine in the U.K. and subsequently published in 1887.&lt;/p&gt;
-			&lt;p&gt;It is the sequel to King Soloman’s mines and sees the eponymous hero, reunited with his companions, travelling to Africa on a dangerous and incident-strewn journey to try and find a legendary tribe of white-skinned people, the Zu-Vendi. Having discovered the remote and isolated country they become embroiled in its internal affairs, culminating in a bitter and violent civil war.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Allan Quatermain&lt;/i&gt;, the sequel to &lt;a href="https://standardebooks.org/ebooks/h-rider-haggard/king-solomons-mines"&gt;King Solomon’s Mines&lt;/a&gt;, was first serialized in Longman’s Magazine in the U.K. and subsequently published as a novel in 1887. In it we see the eponymous hero reunited with his companions to travel to Africa on a dangerous and adventuresome quest to try to find a legendary tribe of white-skinned people, the Zu-Vendi. Having discovered theor remote and isolated country, Quatermain and his crew they become embroiled in its internal affairs, culminating in a bitter and violent civil war.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/711</dc:source>
 		<dc:source>https://books.google.com/books?id=cQM1AAAAMAAJ</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">105902</meta>
+		<meta property="se:reading-ease.flesch">71.68</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Allan_Quatermain</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_allan-quatermain</meta>
 		<dc:creator id="author">H. Rider Haggard</dc:creator>
 		<meta property="file-as" refines="#author">Haggard, H. Rider</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henry Rider Haggard</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._Rider_Haggard</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80010495</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -84,6 +84,9 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Jason DeCock</dc:contributor>
+		<meta property="file-as" refines="#producer-2">DeCock, Jason</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
