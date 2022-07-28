@@ -160,11 +160,12 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] p[epub|type~="z3998:personal-name"]{
-	font-size: 1.6em;
-	font-variant: all-small-caps;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
+section[epub|type~="dedication"] b[epub|type~="z3998:personal-name"]{
+	display: block;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	margin-bottom: .5em;
+	margin-top: .5em;
 }
 
 section[epub|type~="dedication"] p[epub|type~="se:letter.dateline"]{
