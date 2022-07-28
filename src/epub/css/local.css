@@ -129,6 +129,20 @@ section[epub|type~="dedication"] > *{
 }
 /* End all dedications */
 
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+/* End all epigraphs */
+
 /* Full-page epigraphs */
 section[epub|type~="epigraph"] > *{
 	display: inline-block;
@@ -173,6 +187,6 @@ section[epub|type~="dedication"] p[epub|type~="se:letter.dateline"]{
 }
 /* end dedication styling */
 
-#chapter-15 [epub|type~="z3998:song"]:last-of-type > p{
+#chapter-15 blockquote[epub|type~="z3998:song"]:last-of-type > p{
 	font-style: italic;
 }
