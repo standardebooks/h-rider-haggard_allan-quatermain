@@ -50,7 +50,7 @@
 		<meta property="group-position" refines="#collection-1">2</meta>
 		<dc:description id="description">Adventurer Allan Quatermain sets out on a mission to Africa to locate a mysterious tribe of white-skinned people.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Allan Quatermain&lt;/i&gt;, the sequel to &lt;a href="https://standardebooks.org/ebooks/h-rider-haggard/king-solomons-mines"&gt;King Solomon’s Mines&lt;/a&gt;, was first serialized in Longman’s Magazine in the U.K. and subsequently published as a novel in 1887. In it we see the eponymous hero reunited with his companions to travel to Africa on a dangerous and adventuresome quest to try to find a legendary tribe of white-skinned people, the Zu-Vendi. Having discovered their remote and isolated country, Quatermain and his crew become embroiled in its internal affairs, culminating in a bitter and violent civil war.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Allan Quatermain&lt;/i&gt;, the sequel to &lt;a href="https://standardebooks.org/ebooks/h-rider-haggard/king-solomons-mines"&gt;&lt;i&gt;King Solomon’s Mines&lt;/i&gt;&lt;/a&gt;, was first serialized in &lt;i&gt;Longman’s Magazine&lt;/i&gt; in the U.K. and subsequently published as a novel in 1887. In it we see the eponymous hero reunited with his companions to travel to Africa on a dangerous and adventuresome quest to try to find a legendary tribe of white-skinned people, the Zu-Vendi. Having discovered their remote and isolated country, Quatermain and his crew become embroiled in its internal affairs, culminating in a bitter and violent civil war.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/711</dc:source>
