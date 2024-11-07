@@ -176,7 +176,7 @@ section[epub|type~="dedication"] p{
 
 section[epub|type~="dedication"] b[epub|type~="z3998:personal-name"]{
 	display: block;
-	font-size: 1.5em;
+	font-size: larger;
 	font-variant: small-caps;
 	margin-bottom: .5em;
 	margin-top: .5em;
