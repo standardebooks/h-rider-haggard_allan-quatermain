@@ -71,8 +71,9 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
-		<dc:contributor id="artist">Antonion Zeno Shindler</dc:contributor>
-		<meta property="file-as" refines="#artist">Zeno Shindler, Antonion</meta>
+		<dc:contributor id="artist">Antonio Zeno Shindler</dc:contributor>
+		<meta property="file-as" refines="#artist">Zeno Shindler, Antonio</meta>
+		<link href="https://en.wikipedia.org/wiki/Antonio_Zeno_Shindler" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ng E-Ching</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">E-Ching, Ng</meta>
