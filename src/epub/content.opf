@@ -72,14 +72,17 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Antonio Zeno Shindler</dc:contributor>
-		<meta property="file-as" refines="#artist">Zeno Shindler, Antonio</meta>
+		<meta property="file-as" refines="#artist">Shindler, Antonio Zeno</meta>
 		<link href="https://en.wikipedia.org/wiki/Antonio_Zeno_Shindler" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n91124278.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ng E-Ching</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">E-Ching, Ng</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">David Widger</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Andy Oakley</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Oakley, Andy</meta>
